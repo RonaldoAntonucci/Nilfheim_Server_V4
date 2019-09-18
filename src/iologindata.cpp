@@ -233,7 +233,7 @@ bool IOLoginData::loadPlayerById(Player* player, uint32_t id)
 {
 	Database& db = Database::getInstance();
 	std::ostringstream query;
-	query << "SELECT `id`, `name`, `account_id`, `group_id`, `sex`, `vocation`, `experience`, `level`, `maglevel`, `health`, `healthmax`, `blessings`, `mana`, `manamax`, `manaspent`, `soul`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `posx`, `posy`, `posz`, `cap`, `lastlogin`, `lastlogout`, `lastip`, `conditions`, `skulltime`, `skull`, `town_id`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`, `direction` FROM `players` WHERE `id` = " << id;
+	query << "SELECT `id`, `name`, `account_id`, `group_id`, `sex`, `vocation`, `experience`, `level`, `maglevel`, `health`, `healthmax`, `blessings`, `mana`, `manamax`, `manaspent`, `soul`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `posx`, `posy`, `posz`, `cap`, `lastlogin`, `lastlogout`, `lastip`, `conditions`, `skulltime`, `skull`, `town_id`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`, `attributesAtual`, `direction` FROM `players` WHERE `id` = " << id;
 	return loadPlayer(player, db.storeQuery(query.str()));
 }
 
@@ -241,7 +241,7 @@ bool IOLoginData::loadPlayerByName(Player* player, const std::string& name)
 {
 	Database& db = Database::getInstance();
 	std::ostringstream query;
-	query << "SELECT `id`, `name`, `account_id`, `group_id`, `sex`, `vocation`, `experience`, `level`, `maglevel`, `health`, `healthmax`, `blessings`, `mana`, `manamax`, `manaspent`, `soul`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `posx`, `posy`, `posz`, `cap`, `lastlogin`, `lastlogout`, `lastip`, `conditions`, `skulltime`, `skull`, `town_id`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`, `direction` FROM `players` WHERE `name` = " << db.escapeString(name);
+	query << "SELECT `id`, `name`, `account_id`, `group_id`, `sex`, `vocation`, `experience`, `level`, `maglevel`, `health`, `healthmax`, `blessings`, `mana`, `manamax`, `manaspent`, `soul`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `posx`, `posy`, `posz`, `cap`, `lastlogin`, `lastlogout`, `lastip`, `conditions`, `skulltime`, `skull`, `town_id`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`, `attributesAtual`, `direction` FROM `players` WHERE `name` = " << db.escapeString(name);
 	return loadPlayer(player, db.storeQuery(query.str()));
 }
 
@@ -259,6 +259,8 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 	player->setGUID(result->getNumber<uint32_t>("id"));
 	player->name = result->getString("name");
 	player->accountNumber = accno;
+	//@Attributes
+	player->setAttributesAtual(result->getNumber<uint8_t>("attributesAtual"));
 
 	player->accountType = acc.accountType;
 
@@ -559,6 +561,19 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 		} while (result->next());
 	}
 
+	//@Attributes
+	//Load Attributes
+	query.str(std::string());
+	query << "SELECT `name`, `strenght`, `inteligence`, `vitality`, `spirituality`, `endurance`, `dexterity`, `agility`, `remaining` FROM `player_attributes` WHERE `player_id` = " << player->getGUID();
+	if ((result = db.storeQuery(query.str()))) {
+		AttributesList* attrList = player->getAttributesList();
+		attrList = new AttributesList();
+		do {
+			player->addAttributes(result->getString("name"), result->getNumber<int_attr>("strenght"), result->getNumber<int_attr>("inteligence"), result->getNumber<int_attr>("vitality"), result->getNumber<int_attr>("spirituality"),
+				result->getNumber<int_attr>("endurance"), result->getNumber<int_attr>("dexterity"), result->getNumber<int_attr>("agility"), result->getNumber<int_attr>("remaining"));
+		} while (result->next());
+	}
+
 	player->updateBaseSpeed();
 	player->updateInventoryWeight();
 	player->updateItemsLight(true);
@@ -622,6 +637,35 @@ bool IOLoginData::saveItems(const Player* player, const ItemBlockList& itemList,
 			}
 		}
 	}
+	return query_insert.execute();
+}
+
+//@Attributes
+bool IOLoginData::saveAttributes(const Player* player,const AttributesList* attributes, DBInsert& query_insert)
+{
+	std::ostringstream ss;
+
+	//Database& db = Database::getInstance();
+	for (uint8_t i = 0; i < attributes->size(); i++) {
+		Attributes* it = attributes->at(i);
+		std::string name = it->getName();
+		int_attr stre = it->getStrenght()*2;
+		int_attr inte = it->getInteligence()*3;
+		int_attr vita = it->getVitality();
+		int_attr spri = it->getSpirituality();
+		int_attr endu = it->getEndurance();
+		int_attr dext = it->getDexterity();
+		int_attr agil = it->getAgility();
+		int_attr rema = it->getRemaining()*11;
+
+
+		ss << player->getGUID() << ',' << name << ',' << stre << ',' << inte << ',' << vita << ',' <<
+			spri <<',' << endu << ',' << dext << ',' << agil << ',' << rema;
+		if (!query_insert.addRow(ss)) {
+			return false;
+		}
+	}
+
 	return query_insert.execute();
 }
 
@@ -790,6 +834,18 @@ bool IOLoginData::savePlayer(Player* player)
 	}
 
 	if (!saveItems(player, itemList, itemsQuery, propWriteStream)) {
+		return false;
+	}
+
+	//@Attributes
+	//Attributes saving
+	query << "DELETE FROM `player_attributes` WHERE `player_id` = " << player->getGUID();
+	if (!db.executeQuery(query.str())) {
+		return false;
+	}
+	DBInsert attributesQuery("INSERT INTO `player_attributes` (`player_id`, `name`, `strenght`, `inteligence`, `vitality`, `spirituality`, `endurance`, `dexterity`, `agility`, `remaining`) VALUES ");
+
+	if (!saveAttributes(player, player->getAttributesList(),attributesQuery)) {
 		return false;
 	}
 

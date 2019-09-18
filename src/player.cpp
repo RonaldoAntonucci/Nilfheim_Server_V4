@@ -69,6 +69,8 @@ Player::~Player()
 
 	inbox->decrementReferenceCounter();
 
+	//@Attributes
+	deleteAttributes();
 	setWriteItem(nullptr);
 	setEditHouse(nullptr);
 }
@@ -4528,4 +4530,23 @@ void Player::setGuild(Guild* guild)
 	if (oldGuild) {
 		oldGuild->removeMember(this);
 	}
+}
+
+void Player::addAttributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int_attr rema) {
+	this->attributes->push_back(new Attributes(name, stre, inte, vita, spri, endu, dext, agil, rema));
+}
+
+void Player::setAttributesAtual(uint8_t v) {
+	this->attributesAtual = v;
+}
+
+AttributesList* Player::getAttributesList() {
+	return this->attributes;
+}
+
+void Player::deleteAttributes() {
+	while (!this->attributes->empty()) {
+		attributes->pop_back();
+	}
+	delete this->attributes;
 }

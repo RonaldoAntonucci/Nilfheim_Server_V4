@@ -37,6 +37,9 @@
 #include "town.h"
 #include "mounts.h"
 
+//@Attributes
+#include "attributes.h"
+
 class House;
 class NetworkMessage;
 class Weapon;
@@ -1142,7 +1145,21 @@ class Player final : public Creature, public Cylinder
 		void forgetInstantSpell(const std::string& spellName);
 		bool hasLearnedInstantSpell(const std::string& spellName) const;
 
+		//@Attributes
+		//Métodos
+		void addAttributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int_attr rema);
+		void setAttributesAtual(uint8_t v);
+		AttributesList* getAttributesList();
+
 	private:
+		//@Attributes
+		AttributesList* attributes;
+		uint8_t attributesAtual = 0;
+
+		void deleteAttributes();
+
+		
+
 		std::forward_list<Condition*> getMuteConditions() const;
 
 		void checkTradeState(const Item* item);

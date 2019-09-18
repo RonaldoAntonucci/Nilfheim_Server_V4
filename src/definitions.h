@@ -31,6 +31,10 @@ static constexpr auto CLIENT_VERSION_STR = "10.98";
 static constexpr auto AUTHENTICATOR_DIGITS = 6U;
 static constexpr auto AUTHENTICATOR_PERIOD = 30U;
 
+//@attributes
+#define int_attr int32_t
+#define AttributesList std::vector<Attributes*>
+
 #ifndef __FUNCTION__
 #define __FUNCTION__ __func__
 #endif
