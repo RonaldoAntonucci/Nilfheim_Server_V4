@@ -566,8 +566,8 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 	query.str(std::string());
 	query << "SELECT `name`, `strenght`, `inteligence`, `vitality`, `spirituality`, `endurance`, `dexterity`, `agility`, `remaining` FROM `player_attributes` WHERE `player_id` = " << player->getGUID();
 	if ((result = db.storeQuery(query.str()))) {
-		AttributesList* attrList = player->getAttributesList();
-		attrList = new AttributesList();
+		//AttributesList* attrList = player->getAttributesList();
+		//attrList = new AttributesList();
 		do {
 			player->addAttributes(result->getString("name"), result->getNumber<int_attr>("strenght"), result->getNumber<int_attr>("inteligence"), result->getNumber<int_attr>("vitality"), result->getNumber<int_attr>("spirituality"),
 				result->getNumber<int_attr>("endurance"), result->getNumber<int_attr>("dexterity"), result->getNumber<int_attr>("agility"), result->getNumber<int_attr>("remaining"));
@@ -645,7 +645,7 @@ bool IOLoginData::saveAttributes(const Player* player,const AttributesList* attr
 {
 	std::ostringstream ss;
 
-	//Database& db = Database::getInstance();
+	Database& db = Database::getInstance();
 	for (uint8_t i = 0; i < attributes->size(); i++) {
 		Attributes* it = attributes->at(i);
 		std::string name = it->getName();
@@ -658,10 +658,13 @@ bool IOLoginData::saveAttributes(const Player* player,const AttributesList* attr
 		int_attr agil = it->getAgility();
 		int_attr rema = it->getRemaining()*11;
 
-
-		ss << player->getGUID() << ',' << name << ',' << stre << ',' << inte << ',' << vita << ',' <<
+		ss << player->getGUID() << ',' << db.escapeString(name) << ',' << stre << ',' << inte << ',' << vita << ',' <<
 			spri <<',' << endu << ',' << dext << ',' << agil << ',' << rema;
+		/*std::cout << player->getGUID() << ',' << db.escapeString(name) << ',' << stre << ',' << inte << ',' << vita << ',' <<
+			spri << ',' << endu << ',' << dext << ',' << agil << ',' << rema << std::endl;*/
 		if (!query_insert.addRow(ss)) {
+			//std::cout << "erro" << std::endl;
+			//system("pause");
 			return false;
 		}
 	}
@@ -839,6 +842,7 @@ bool IOLoginData::savePlayer(Player* player)
 
 	//@Attributes
 	//Attributes saving
+	query.str(std::string());
 	query << "DELETE FROM `player_attributes` WHERE `player_id` = " << player->getGUID();
 	if (!db.executeQuery(query.str())) {
 		return false;
@@ -846,6 +850,7 @@ bool IOLoginData::savePlayer(Player* player)
 	DBInsert attributesQuery("INSERT INTO `player_attributes` (`player_id`, `name`, `strenght`, `inteligence`, `vitality`, `spirituality`, `endurance`, `dexterity`, `agility`, `remaining`) VALUES ");
 
 	if (!saveAttributes(player, player->getAttributesList(),attributesQuery)) {
+		//system("pause");
 		return false;
 	}
 

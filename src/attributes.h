@@ -6,7 +6,7 @@ class Attributes {
 
 	public:
 		Attributes();
-		Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, uint8_t rema);
+		Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int_attr rema);
 		~Attributes();
 
 		std::string getName();

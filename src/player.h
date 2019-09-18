@@ -1153,7 +1153,7 @@ class Player final : public Creature, public Cylinder
 
 	private:
 		//@Attributes
-		AttributesList* attributes;
+		AttributesList attributes;
 		uint8_t attributesAtual = 0;
 
 		void deleteAttributes();
