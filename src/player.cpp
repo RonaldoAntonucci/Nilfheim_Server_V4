@@ -4537,6 +4537,7 @@ void Player::addAttributes(std::string name, int_attr stre, int_attr inte, int_a
 	/*if (!this->attributes) {
 		this->attributes = new AttributesList();
 	}*/
+
 	Attributes* newAttr = new Attributes(name, stre, inte, vita, spri, endu, dext, agil, rema);
 	if (!newAttr) {
 		std::cout << "erro ao alocar Attribute." << std::endl;
