@@ -1,0 +1,2167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OutputMessageAllocator" Collapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outputmessage.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Action" Collapsed="true">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBiAlCAFBAAACAAEAwABABIAAAEIEAgABAAAAAAAAiQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Actions" Collapsed="true">
+    <Position X="7.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DEAKAQACIgEAAAAAQACAJAACAggAIAAAAAAgAAgAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\actions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ban" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\ban.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOBan" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\ban.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attributes" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAQAAASAAwgAEAAAIAAQgwBIAEAARBhAAECQAQACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\attributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Event" Collapsed="true">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAEAAAAAAAAEAAhAAAEEggAAAAABAAAAAAAAKA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\baseevents.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseEvents" Collapsed="true">
+    <Position X="7.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAAoAAAAABAAAACAAABgAIIEAAAAABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\baseevents.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallBack" Collapsed="true">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAEABAAABAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\baseevents.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BedItem" Collapsed="true">
+    <Position X="23.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAYAAAWECAAEABAAAAAAAAAAAgEAQAgRCEAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\bed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatChannel" Collapsed="true">
+    <Position X="6.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KgEAgCBAMAAAIAAAgCAAAAAAQAAECQAAAABEIABAIgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\chat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateChatChannel" Collapsed="true">
+    <Position X="6.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAhAAAEABAgAAAAAACgAAQAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\chat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chat" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAKCAhAAAAgAAAAICAgAGAAgFAgAgACAIAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\chat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueCallback" Collapsed="true">
+    <Position X="0.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileCallback" Collapsed="true">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TargetCallback" Collapsed="true">
+    <Position X="5.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixArea" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIIBAAAAAACAAAAJAABgAAAGCACAAAAAgAAAQAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AreaCombat" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEEAAAAAAAAAAAAAAAAIAAUAAAAAAAQAAkAgAAABA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Combat" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBKBCGAAEAjCQQJABFABgBAAAgABgAQAKoBgAJQCAGE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagicField" Collapsed="true">
+    <Position X="21.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAgEgAAAAACAAAAAABAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Condition" Collapsed="true">
+    <Position X="24.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCBAAAAAACIAIAAIEAAIKApAQAEAAAACAgA0IgAIgQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionGeneric" Collapsed="true">
+    <Position X="26.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAMAAAAABAAAEAAAAAAAAEAAAIAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionAttributes" Collapsed="true">
+    <Position X="25.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABABQQAAAEAoACIEAAICABEAAEAAAACAAgEQAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionRegeneration" Collapsed="true">
+    <Position X="28" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACAAoAAAIAABEAAOAAAAAAAABAACAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionSoul" Collapsed="true">
+    <Position X="30.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABBAAAAAAAAIAAAEAAIAQAACAAAAAACAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionInvisible" Collapsed="true">
+    <Position X="32.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAABAAAEAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionDamage" Collapsed="true">
+    <Position X="34.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBgAAAAAAAgIMAAEBAIFMBACEEAAIASAFAEIAAIAQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionSpeed" Collapsed="true">
+    <Position X="14.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAGAAAAAAAIAAAEAAIAADMAAEAAABCAAAEAAAIGA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionOutfit" Collapsed="true">
+    <Position X="16.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACIAAAEIAIAABAAAEAAQAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionLight" Collapsed="true">
+    <Position X="19" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAAAQAJAAAEAAIAABAAAEAAAACACAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionSpellCooldown" Collapsed="true">
+    <Position X="21.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAGAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionSpellGroupCooldown" Collapsed="true">
+    <Position X="23.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAEAAAAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfigManager" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIBAAAABBAAAAAAAAAQIAAAAAAIAAAAQAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\configmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectionManager" Collapsed="true">
+    <Position X="53" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIACAAAAAAAAAAAAAQAIAAAAgAAACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\connection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection" Collapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAVAEAADABQAABBQhAQBAAAYUggSAACAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\connection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerIterator" Collapsed="true">
+    <Position X="37.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\container.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Container" Collapsed="true">
+    <Position X="19.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhQDAAwgECgggEiEBpKIBAICQiAGACIAeEAjUREBBAg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\container.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrozenPathingConditionCall" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQCAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Creature" Collapsed="true">
+    <Position X="26.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PMbPs9jxRO9r+1SUunpgKhm+5enwa/K/4uZt/OlZLp0=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatureEvent" Collapsed="true">
+    <Position X="24" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAFUAAAAAGBAgAACAAAAAABAAjIBgAFBAAAASg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creatureevent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatureEvents" Collapsed="true">
+    <Position X="1" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAAgCAAAAAAAQAIgAAAgoAIAAAAAAgAAAEAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creatureevent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cylinder" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAgAACgAAACAAgAAAAAAACAGAAAAcAADQAEBAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\cylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualCylinder" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAACAgAAAAAgAAAAEAAAAGACAAUAADAAEAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\cylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database" Collapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIEAAAAACEAAQAAAwAAAAgAAIACEAAQQACAiIAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBResult" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAEAAAAABAAAAAACACQQAAgAAAAiAAIAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBInsert" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAEAAgAAAAAACAAAAAIABAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBTransaction" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAABAAAAAAAAAAAQAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseManager" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAIAAAAAAAQAAQAAAAACAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\databasemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseTasks" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAQAAEhAAAEAAAAAAEAAAgAAAkAAAAAACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\databasetasks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DepotChest" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAACAAAAAAgQAAAAAAAAAAEAAAAAAAAAFAQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\depotchest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DepotLocker" Collapsed="true">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABCAAAAAAAAAABAAAAAAAAABACAAEAAFAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\depotlocker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Events" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgMgACAAEIMggAAICEAABIEBAoICAACASAAAAABAAIg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropStream" Collapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAKAAAAAAAAAAAAIAAEEQAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropWriteStream" Collapsed="true">
+    <Position X="53" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACAAAAAAAAAAAAACAAAAAAAQBggAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8/nuOz32aJPzbYfndvw1/b3q4b67+hO0OnRq8l3cXDs=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalEvents" Collapsed="true">
+    <Position X="14.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQYgCAAAkAAAAAAAAAEKACgAggAIAAAAAAgAAAAAaA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\globalevent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalEvent" Collapsed="true">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAQAAAAAACAgQAIACIAAAEAABABABkACAAACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\globalevent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Groups" Collapsed="true">
+    <Position X="53" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\groups.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guild" Collapsed="true">
+    <Position X="37.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAgAgAAAAAAAERAAAQjIAAAABBEAAAACAAEgAAIAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\guild.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccessList" Collapsed="true">
+    <Position X="37.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAaEAAAggBAACAAAAgAAAgAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAYCACQAIAAAAxAAABAAAAAAIAAAgAAACAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseTransferItem" Collapsed="true">
+    <Position X="19" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAACACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="House" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkiIhAESKCCAngAIAIACrAAFQACQACpQATIsQAgAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houses" Collapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAKAAAAAAAAAAAEAQAAAAAAAIgCAAAQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseTile" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACgACAAEAgAAAAAAAAAAAAAAEAAAAAACAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\housetile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inbox" Collapsed="true">
+    <Position X="19" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAFAQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\inbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOGuild" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\ioguild.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOLoginData" Collapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgQEAMCIACAIAGAAAAAAApgYQAAIQQIAAAAAQAAQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iologindata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOMap" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEACAAAAAEBBAACQAAAAAAAAAABAAAIAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOMapSerialize" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAgBAAAAAAKAAQAAAAAAEQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomapserialize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOMarket" Collapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAAAAAAAFAIkAAAEAYCAAAASABAQMEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomarket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemAttributes" Collapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0BhwgQQbAAEEYSAAQAQJCBbkBAAEkBAGAgAAEgAAFAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>1Ex0lcwVQSOmayjLTIgt3SfkdiEUcDAGAgAkEFFAfiA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemType" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yFBcSIIAUUgKhQAXJSgVRACgIEOPq/SioIGsAFO6qg8=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Items" Collapsed="true">
+    <Position X="37.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAChAAAAgCAAEAIgBQAIAABEIAAICAEAhAACAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockfreePoolingAllocator&lt;T, CAPACITY&gt;" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\lockfree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptEnvironment" Collapsed="true">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAMAAAEAAAAAVAAAAABCFBABgAASAAQNACkCAEBAAU=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LuaScriptInterface" Collapsed="true">
+    <Position X="18.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/v//v//////7////f+//+//////////////////+3/8=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LuaEnvironment" Collapsed="true">
+    <Position X="19.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEgCBAICAqAABQQgQAAABMEAAoAAgAAAIAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mailbox" Collapsed="true">
+    <Position X="16.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEACBAACAAAgAABAAAAAAGAAAAUAADAAEEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\mailbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AStarNodes" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABEAABAAAAAAABAQAAIgAAEAAAAAAIEE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QTreeNode" Collapsed="true">
+    <Position X="3.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAACAAAIBABAAAAIAABAkAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QTreeLeafNode" Collapsed="true">
+    <Position X="3.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAEQCAAAAAAgEAAKAAAAAAAAAAgAgAAAAAAE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAASAQHAwHAIRAAMRAAAAAJBAQAESEAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="28" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+CRBUMBnJBxwCyQRCEZpUB1JhUh0IhBmgqcldUDdTDE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Loot" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterType" Collapsed="true">
+    <Position X="37.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAEAAAAAAEAAAAUAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterSpell" Collapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADCBIMCAAIgAQAAEIgAEGABCCEAACAAEGgACABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monsters" Collapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABwQAAAQAAAAAABgIAACAAAAQAIAAAQAAIhAAAAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mounts" Collapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAYAAABAEABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\mounts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveEvents" Collapsed="true">
+    <Position X="3.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAFAAgAAAACAEACAYAAAAkgAIkAAAABgAAAAAKg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\movement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveEvent" Collapsed="true">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>B4hLiCMEZAigJQIigYQhDgIIOABgESAAVAICgECgACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\movement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkMessage" Collapsed="true">
+    <Position X="0.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAREABAEEgAAoACAQCAAAAZAEAAAQBhAQAAGAIQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\networkmessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Npcs" Collapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\npc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NpcScriptInterface" Collapsed="true">
+    <Position X="17.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQABgAAAAAQQAAIgAAAAACEAAYAAIAAgQQggAIAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\npc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NpcEventsHandler" Collapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAiAJAAAAABAQgACAAAIEAAGAAEAAAQAAAJAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\npc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Npc" Collapsed="true">
+    <Position X="30.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIAAQsJkAZAgAgABBFAAQA9AB0gsAAYVwMUlUACNGIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\npc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Outfits" Collapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAABAAAAQQAAABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outfit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputMessage" Collapsed="true">
+    <Position X="0.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQQAAAQAAAAAAAAAAAAAAAAAAAAQAAEgAAAAgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outputmessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputMessagePool" Collapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIAAAAAgAAAAAAAAAAAAQAAAAoCEAAEAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outputmessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Party" Collapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AE0ABggAAABAAQIERlEAMsASAABAIAgAhAgAAEAAABA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\party.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="21.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>7b/Hjn//vu9/n//d+/f/f//t7/u///tv/8/vf7////4=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Protocol" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAoAAgIBAAQAIwAAAHAABCAAAAAAAEBAAgIigEgQA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProtocolGame" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EJwEuuuK7utj/D8Ngjd3qhkCvICCoNg/TJysaYRlUV0=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocolgame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProtocolLogin" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAECAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocollogin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProtocolOld" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocolold.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mission" Collapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABAAgAAAApEACAEAgEAAEAAACAAAEgAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\quests.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quest" Collapsed="true">
+    <Position X="37.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAACAAAACAEAAEAAEAAAgAAAECIAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\quests.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quests" Collapsed="true">
+    <Position X="39" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAAAAAAAAAAAAAAAAAIAQIAIAABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\quests.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raids" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAARQQAAGAAIABAAAACkAgAgwIAAAIAAAhAAAAAIQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raid" Collapsed="true">
+    <Position X="40.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAABAAAAAAAAABAgARCACAAQAEAgCEAAAlIAAAAIQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaidEvent" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnounceEvent" Collapsed="true">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleSpawnEvent" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AreaSpawnEvent" Collapsed="true">
+    <Position X="26.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAABAAAAAAAhAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptEvent" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAgACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSA" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgACAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\rsa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchedulerTask" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAAAAAAAAAAAAAACAAAAAAhAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\scheduler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scheduler" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAEBAAAAQAAAAAEAAQAIAAAAAAQAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\scheduler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scripts" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgJAAAAAAAAABAAAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\script.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptingManager" Collapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgQIAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\scriptmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceBase" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAIACAAAAAAAAAAgAAAIAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service&lt;ProtocolType&gt;" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAIACAAAAAAAAAAgAAAIAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicePort" Collapsed="true">
+    <Position X="53" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAEAAACAAYACAgAAgAACAAIAgAICFAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceManager" Collapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAggAAACAAEAAAAAAAQAACAAggAAAAAAAkAAAGAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Signals" Collapsed="true">
+    <Position X="37.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABAAAAABAABaAEAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\signals.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawn" Collapsed="true">
+    <Position X="39" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAQACCAAAgAAAgEAAAKgQAAAAAgIACQgBAAACAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spawn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawns" Collapsed="true">
+    <Position X="40.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAIAAAAABAAABAkAgAAAAAAAAgAABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spawn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spells" Collapsed="true">
+    <Position X="5.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIABIIAgACAIAAAIAAIAADYgAAIIAABAAgQAIACIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseSpell" Collapsed="true">
+    <Position X="4.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAgAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatSpell" Collapsed="true">
+    <Position X="11.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAAAAgAAAgAAAQABAAAAAACAABAAgACABACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spell" Collapsed="true">
+    <Position X="4.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YwjlAgJoCNgQKXAQACGUCMIoICUEEMnEEECN5EJtAiA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstantSpell" Collapsed="true">
+    <Position X="14.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAARAAAQBAjAQAAECAxAAAAABQRCBEBAAAAAAJACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuneSpell" Collapsed="true">
+    <Position X="10.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBCAECAIAAAAACAAAAAARAAAAAAIACAEBgACAAABAGA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spells.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProtocolStatus" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAAAgAAAEAAAAAAAAAQAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocolstatus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TalkAction" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAAAABQAAAAAAAAAAAAEAAQAAABBCAAAAAAACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\talkaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TalkActions" Collapsed="true">
+    <Position X="10" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAICAAAAgAAAAAAAAAAAAAAIggAIAAIAAAgCAAAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\talkaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAQAAAAAAAACEAAEAAAACAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tasks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dispatcher" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAAAEBAIAEAAAAIAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tasks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teleport" Collapsed="true">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAAASAAAAAABgAABAAAAAAGAAAAUAADBAEEQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\teleport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thing" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEIAAAQAAgAAAAAAAAAAGACAAAACCAAAAgAAFARAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\thing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadHolder&lt;Derived&gt;" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAEEgAAAIAAAAAAAgAAAQAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\thread_holder_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileItemVector" Collapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUQAAAAAAAAAQAAAAAAAAAIAAAABAAAASAAgAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>rABVICkEACgggSCQgiCpCCGIgCAmBDSAcKAnYHVCQQQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicTile" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAAAAAgAAAAAAAABIACAAIAgAABAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticTile" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAAAgAAAAAgAAAABAAAAIACAAAAgAABAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Town" Collapsed="true">
+    <Position X="44.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAACAAAAAABAAAAAEABBAAAAEAAEAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\town.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Towns" Collapsed="true">
+    <Position X="46" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAEAgAAAIAAAAAEAAgAABAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\town.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrashHolder" Collapsed="true">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAgAAAAAAACAGIAAAUAADAAEAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\trashholder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vocation" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgADAAABEGgAgQiEIIJgAAgAAIikAUEIgQAKIQAEIoA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\vocation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vocations" Collapsed="true">
+    <Position X="49.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\vocation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaitingList" Collapsed="true">
+    <Position X="51.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAUAAAAAEAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\waitlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapons" Collapsed="true">
+    <Position X="12.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAABgAAAAAAAAAAAAAAAggAYAAAAAAgEAAChJA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\weapons.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="17.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AShQBAIlJBCKWQDAAQCAAAAOOR8AEAiqfMBFQBIASmg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\weapons.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponMelee" Collapsed="true">
+    <Position X="15" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAASAAAAAAAAAAAACABQAAAAACEAAAAAAIAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\weapons.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponDistance" Collapsed="true">
+    <Position X="17.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAAAASAAABAAAAAAAACABQAAAAACEAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\weapons.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponWand" Collapsed="true">
+    <Position X="19.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAAEAAAAAASEBQAAAAAAEAAAAAAgCA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\weapons.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildcardTreeNode" Collapsed="true">
+    <Position X="53" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQEQBAAAACCAAAAAAAAAAAgAAQAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\wildcardtree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OTB::Loader" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAAAAAAiAAAAAAAAAAAAgAAAAAABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WaitListInfo" Collapsed="true">
+    <Position X="49.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\waitlist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XTEA&lt;Encrypt, BlockSize&gt;" Collapsed="true">
+    <Position X="51.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\xtea.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Account" Collapsed="true">
+    <Position X="39" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAEAAAAAAAFAAAQAAAAAgAAAkA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\account.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BanInfo" Collapsed="true">
+    <Position X="42.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\ban.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ConnectBlock" Collapsed="true">
+    <Position X="47.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAEAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\ban.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CombatParams" Collapsed="true">
+    <Position X="46" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQQCASAAAgIAAAgCEAAQAIAAAAAAEAAAQAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\combat.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="IntervalInfo" Collapsed="true">
+    <Position X="42.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAQAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FindPathParams" Collapsed="true">
+    <Position X="51.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAQAAAAEEAAAAQAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creature.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DatabaseTask" Collapsed="true">
+    <Position X="49.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAQAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\databasetasks.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Outfit_t" Collapsed="true">
+    <Position X="40.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIIAAAAAAAIAEAAAAIAAAAAAAAAAAACAAAg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LightInfo" Collapsed="true">
+    <Position X="46" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ShopInfo" Collapsed="true">
+    <Position X="47.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABACAIAAAAAAAAAAAAAAAAAAAAAAAAAAQgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MarketOffer" Collapsed="true">
+    <Position X="53" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAAAAAAEAAAAAAgAAgAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MarketOfferEx" Collapsed="true">
+    <Position X="37.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACASAAAAAAAEAAAAAAgABgAEAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HistoryMarketOffer" Collapsed="true">
+    <Position X="40.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAAAAAAAAAAAAAgAAgAAEAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MarketStatistics" Collapsed="true">
+    <Position X="39" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAEAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ModalWindow" Collapsed="true">
+    <Position X="40.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAQAQEAAAAIABAAAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CombatDamage" Collapsed="true">
+    <Position X="44.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Group" Collapsed="true">
+    <Position X="37.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\groups.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GuildRank" Collapsed="true">
+    <Position X="39" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\guild.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTBM_root_header" Collapsed="true">
+    <Position X="53" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAIAAQAQAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTBM_Destination_coords" Collapsed="true">
+    <Position X="51.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTBM_Tile_coords" Collapsed="true">
+    <Position X="37.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VERSIONINFO" Collapsed="true">
+    <Position X="42.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lightBlock2" Collapsed="true">
+    <Position X="44.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Abilities" Collapsed="true">
+    <Position X="37.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAABCQAoQAAQRAAACAEAAAAAAACQAABAAgAQAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LuaVariant" Collapsed="true">
+    <Position X="51.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAIAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LuaTimerEventDesc" Collapsed="true">
+    <Position X="49.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAgABAAAAAAAAAEAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AStarNode" Collapsed="true">
+    <Position X="40.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAABgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Floor" Collapsed="true">
+    <Position X="53" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAkAAAAAAAAAAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\map.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LootBlock" Collapsed="true">
+    <Position X="47.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAIACAAABAAAAAAIAAAAAAgQAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="summonBlock_t" Collapsed="true">
+    <Position X="37.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAAAAAAAAAAAAAAAAABAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="spellBlock_t" Collapsed="true">
+    <Position X="53" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIABAAAAAAAEAAAAAABAAAAUAAAEGgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="voiceBlock_t" Collapsed="true">
+    <Position X="46" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monsters.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mount" Collapsed="true">
+    <Position X="44.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAEAQAAkAAAAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\mounts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MoveEventList" Collapsed="true">
+    <Position X="46" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\movement.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Outfit" Collapsed="true">
+    <Position X="39" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAIAAkAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outfit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ProtocolOutfit" Collapsed="true">
+    <Position X="46" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAEAAAAAAAAAAQAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\outfit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VIPEntry" Collapsed="true">
+    <Position X="44.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAEAAAEAAAAAQAAQAAIAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpenContainer" Collapsed="true">
+    <Position X="49.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OutfitEntry" Collapsed="true">
+    <Position X="42.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Skill" Collapsed="true">
+    <Position X="49.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Position" Collapsed="true">
+    <Position X="44.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAaAAAQAAgAAAAAQAAAAAAAAAQAABgAWABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\position.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TextMessage" Collapsed="true">
+    <Position X="40.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIBAAAAABAAAIAIAAAQAEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocolgame.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonsterSpawn" Collapsed="true">
+    <Position X="42.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAAgAAAAAEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TaskComparator" Collapsed="true">
+    <Position X="39" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\scheduler.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="spawnBlock_t" Collapsed="true">
+    <Position X="51.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAJCAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\spawn.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Wait" Collapsed="true">
+    <Position X="47.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\waitlist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTB::Node" Collapsed="true">
+    <Position X="47.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAIAAAIAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTB::LoadError" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OTB::InvalidOTBFormat" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\fileloader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="RequestedInfo_t" Collapsed="true">
+    <Position X="47.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAiAAAAAAAAAAAAAAAAAQAAAAAIBAACAQAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\protocolstatus.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConditionAttr_t" Collapsed="true">
+    <Position X="47.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgAACBAAARAAQAAgABAAAAEDAIBABIIAAAmgIgEAQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\condition.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MagicEffectClasses" Collapsed="true">
+    <Position X="47.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GGBDBAEDBCGSeIVACAiFRQnFAZBRQaQkAwINVHJBCHQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShootType_t" Collapsed="true">
+    <Position X="39" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIAiEABgyIAggCEiA4JkIAAIEAgICAAJEmAASYwxAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpeakClasses" Collapsed="true">
+    <Position X="49.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAEAAAAIAGIAAAYAAAAAACAEUAMAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MessageClasses" Collapsed="true">
+    <Position X="39" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AigAEEAAAAgAAAAAAACAEAACBAAgAABABEAgQAFAAEQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FluidColors_t" Collapsed="true">
+    <Position X="49.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAQAAgBQAAAAAAAAAAAAAAAAAUAAAAAAE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FluidTypes_t" Collapsed="true">
+    <Position X="51.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgACBAAFASQAABRQAAIAAWAkAAAAAAAIAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClientFluidTypes_t" Collapsed="true">
+    <Position X="39" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQAAEAAABAAAAAAAAAAAQEABAoAEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SquareColor_t" Collapsed="true">
+    <Position X="40.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TextColor_t" Collapsed="true">
+    <Position X="49.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAQgAIAAAIAAECAAAAABBMBAQAAACAAAAAEAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Icons_t" Collapsed="true">
+    <Position X="42.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAAAAAAAmABAAAAiABAAEUAAAAQAAAAQkAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeaponType_t" Collapsed="true">
+    <Position X="46" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIQAAAEAAAAAABAAAAAgAAAAACAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ammo_t" Collapsed="true">
+    <Position X="44.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAIAIAAAAAAAAAAAAAIIAAQAAAEAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeaponAction_t" Collapsed="true">
+    <Position X="44.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAA0gAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WieldInfo_t" Collapsed="true">
+    <Position X="47.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAgCBAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Skulls_t" Collapsed="true">
+    <Position X="44.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAQAIQAAEAAAAAQBAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PartyShields_t" Collapsed="true">
+    <Position X="51.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAADAAEQAABCAAEAAQAAAAAAGAAAIAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GuildEmblems_t" Collapsed="true">
+    <Position X="40.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAAAIAAAAAAAgAAAAAQBAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="item_t" Collapsed="true">
+    <Position X="44.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAICIABgAMiAAAaAEAAAYpEAAAiABDCCAAEgoIEA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerFlags" Collapsed="true">
+    <Position X="53" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQKgIQERAAgmEQAgAgIAAQAAAAAACAQIAAtFaAiAQY=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ReloadTypes_t" Collapsed="true">
+    <Position X="44.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEAAoABABBAghAAAAAEAFEAAAAAJIAABgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\const.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="slots_t" Collapsed="true">
+    <Position X="47.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABgAIAAJACAAEAAAAAAAAAAAIAAAAAAAAAOgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creature.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CreatureEventType_t" Collapsed="true">
+    <Position X="37.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAgAAKgAAAAIBAAIAAAAAJAAAAAAgAAAAQAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\creatureevent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="cylinderflags_t" Collapsed="true">
+    <Position X="40.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABQCAEAAAiAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\cylinder.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="cylinderlink_t" Collapsed="true">
+    <Position X="42.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAACAIAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\cylinder.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RuleViolationType_t" Collapsed="true">
+    <Position X="37.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RuleViolationReasons_t" Collapsed="true">
+    <Position X="53" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEFACBAAIkCAAAABAAAABSIAAFBAAAAAAAAAoAAAAAQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BugReportType_t" Collapsed="true">
+    <Position X="51.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ThreadState" Collapsed="true">
+    <Position X="51.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="itemAttrTypes" Collapsed="true">
+    <Position X="47.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAUAAAAggAAAgAUgABBAAAAAAAIKQAAKABAAEAEE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VipStatus_t" Collapsed="true">
+    <Position X="40.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAkAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MarketAction_t" Collapsed="true">
+    <Position X="51.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAE=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MarketRequest_t" Collapsed="true">
+    <Position X="37.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MarketOfferState_t" Collapsed="true">
+    <Position X="53" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAEAAABAAAAAAAAEIAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChannelEvent_t" Collapsed="true">
+    <Position X="37.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CreatureType_t" Collapsed="true">
+    <Position X="39" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAAAIEAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OperatingSystem_t" Collapsed="true">
+    <Position X="44.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAABAAAEAAAAAAAAABAAAkAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpellGroup_t" Collapsed="true">
+    <Position X="37.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpellType_t" Collapsed="true">
+    <Position X="39" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AccountType_t" Collapsed="true">
+    <Position X="42.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABAAAAAAAAAAACAAAAAAAQAAAABA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RaceType_t" Collapsed="true">
+    <Position X="40.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEEAAAAAAAAAAAAAAgAAAAQAABAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatType_t" Collapsed="true">
+    <Position X="46" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAQBAAAQAAAIAAAAAAAgAAACAAgBgAAAAQAQA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatParam_t" Collapsed="true">
+    <Position X="44.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoEAAAQAAAAAAAAAAAAAAAAAAAQAgAAAAAAAAAiEAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CallBackParam_t" Collapsed="true">
+    <Position X="53" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAIAABAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConditionParam_t" Collapsed="true">
+    <Position X="51.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGADEASAICIABgAAoIyIggQIAgBUFgIAEMRAAYAEUCQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlockType_t" Collapsed="true">
+    <Position X="49.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="skills_t" Collapsed="true">
+    <Position X="40.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACABAAAAQCAAAEACAAAAAgAAQAgAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="stats_t" Collapsed="true">
+    <Position X="44.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgAAAAAAAAAAAAAAAAAAAIAAAACAAAAAYAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpecialSkills_t" Collapsed="true">
+    <Position X="51.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAIAAAAIAAAAAAAQAwAIAAgAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="formulaType_t" Collapsed="true">
+    <Position X="53" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConditionType_t" Collapsed="true">
+    <Position X="53" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAQBBABAAgARQAAYAAACAQSIAAAgAAAgAQMAAAAkI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConditionId_t" Collapsed="true">
+    <Position X="49.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEgAAAAAAgAiAAAAAAAggABAEAEQAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerSex_t" Collapsed="true">
+    <Position X="37.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Vocation_t" Collapsed="true">
+    <Position X="42.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ReturnValue" Collapsed="true">
+    <Position X="49.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VAGQKAmJAhgRAAhMIgJIAgImADClgAhSAKwIAOICDBw=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpeechBubble_t" Collapsed="true">
+    <Position X="53" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQBEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MapMark_t" Collapsed="true">
+    <Position X="49.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQABIqCBAIBAAgAQAAEAEAAAAAAAQAAQQBAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatOrigin" Collapsed="true">
+    <Position X="42.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAAAIAAAAAAAABAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MonstersEvent_t" Collapsed="true">
+    <Position X="40.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAQAAAAAAAAAAhAAAACAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="stackPosType_t" Collapsed="true">
+    <Position X="42.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIADACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WorldType_t" Collapsed="true">
+    <Position X="49.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameState_t" Collapsed="true">
+    <Position X="37.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgAACAAAAAAAAAAAFAoAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LightState_t" Collapsed="true">
+    <Position X="42.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAAAAAAABAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GlobalEvent_t" Collapsed="true">
+    <Position X="39" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAICABAAAIAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\globalevent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AccessList_t" Collapsed="true">
+    <Position X="40.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AccessHouseLevel_t" Collapsed="true">
+    <Position X="39" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAQAAAAAABAABAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RentPeriod_t" Collapsed="true">
+    <Position X="46" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAQAAAAAAABAAAAAAAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\house.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OTBM_AttrTypes_t" Collapsed="true">
+    <Position X="46" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAEAQCAIBAAAkQAAAEwgACAAIAIAAAREEAAAAg=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OTBM_NodeTypes_t" Collapsed="true">
+    <Position X="47.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAMACAAIAAAICAABAAQAAABAgAgBAAAAAAAAAABAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OTBM_TileFlag_t" Collapsed="true">
+    <Position X="49.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAEIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\iomap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ITEMPROPERTY" Collapsed="true">
+    <Position X="39" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAABACAAAFABAEAAACAIAAQAAAAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TradeEvents_t" Collapsed="true">
+    <Position X="37.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemDecayState_t" Collapsed="true">
+    <Position X="49.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AttrTypes_t" Collapsed="true">
+    <Position X="47.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBGEQAAANEAAEIAAAQQgEEADECBAAgAAAgAAAEIBA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Attr_ReadValue" Collapsed="true">
+    <Position X="46" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="itemgroup_t" Collapsed="true">
+    <Position X="53" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAIAIAAAEAAAAIBBEACIIBAFAAAAAIAACA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="clientVersion_t" Collapsed="true">
+    <Position X="40.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABoFAsAAAAwiAEAAAAQDQIAAAAA1hgAAAAIAAAAhgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="rootattrib_" Collapsed="true">
+    <Position X="51.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="itemattrib_t" Collapsed="true">
+    <Position X="46" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACFABKAQIFAEAAEAAIAAAAQCEAUHQAAIBgAAAAQDA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="itemflags_t" Collapsed="true">
+    <Position X="51.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEBAgIgGAAgAAAAAQUANBAEAAAAIgAACAwAAAgBQEIA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\itemloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SlotPositionBits" Collapsed="true">
+    <Position X="46" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAiAAAAABAAQAIAAAAAAAAQAAAAAICABkAAAgQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemTypes_t" Collapsed="true">
+    <Position X="40.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAQAIAAECAAAEEAAAQCAEACAAgAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemParseAttributes_t" Collapsed="true">
+    <Position X="37.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VlAYtBUSR2gSAJDMFwqKVEGsEbBiBKJQKCAEasKQYJc=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\items.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_004c_1" Collapsed="true">
+    <Position X="37.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LuaVariantType_t" Collapsed="true">
+    <Position X="46" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAAAAAIAAAAAAAAAAAAgAAACAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LuaDataType" Collapsed="true">
+    <Position X="44.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAgAAAEAAAIAAAABAAAAAAAAACAAAAAAAAAI=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ErrorCode_t" Collapsed="true">
+    <Position X="46" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAEAAAAAAAAAABBAAAAgAgACAGAIAAAAEAAAAAgA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\luascript.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TargetSearchType_t" Collapsed="true">
+    <Position X="47.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAEAAAAAAAEIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\monster.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoveEvent_t" Collapsed="true">
+    <Position X="42.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIAAAAAAAABAAAAAAAAIEAACIEAAAEAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\movement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="skillsid_t" Collapsed="true">
+    <Position X="42.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fightMode_t" Collapsed="true">
+    <Position X="47.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pvpMode_t" Collapsed="true">
+    <Position X="39" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEAAAIAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tradestate_t" Collapsed="true">
+    <Position X="39" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAIAgAAAAAAAAAAAAgAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="44.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAAQCAAAAAEAEAAAFEBAIAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\position.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RaidState_t" Collapsed="true">
+    <Position X="42.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\raids.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TalkActionResult_t" Collapsed="true">
+    <Position X="46" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\talkaction.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tileflags_t" Collapsed="true">
+    <Position X="53" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUECACCAEAAABLAQECAAgEAEAgACAAAAAIAAADgBAQQ=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ZoneType_t" Collapsed="true">
+    <Position X="51.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEAAAAAAABAAAAAAAAAAACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>D:\Nilfheim_V4\Nilfheim_Server_V4\src\tile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

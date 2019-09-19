@@ -3,11 +3,28 @@
 
 Attributes::Attributes()
 {
+	setStrenght(1);
+	setInteligence(1);
+	setVitality(1);
+	setSpirituality(1);
+	setEndurance(1);
+	setDexterity(1);
+	setAgility(1);
+
+	setStrBonus(0);
+	setIntBonus(0);
+	setVitBonus(0);
+	setSprBonus(0);
+	setEndBonus(0);
+	setDexBonus(0);
+	setAgiBonus(0);
 }
 
-Attributes::Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int_attr rema)
+Attributes::Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema)
 {
 	setName(name);
+	setRemaining(rema);
+
 	setStrenght(stre);
 	setInteligence(inte);
 	setVitality(vita);
@@ -15,7 +32,14 @@ Attributes::Attributes(std::string name, int_attr stre, int_attr inte, int_attr 
 	setEndurance(endu);
 	setDexterity(dext);
 	setAgility(agil);
-	setRemaining(rema);
+	
+	setStrBonus(0);
+	setIntBonus(0);
+	setVitBonus(0);
+	setSprBonus(0);
+	setEndBonus(0);
+	setDexBonus(0);
+	setAgiBonus(0);
 }
 
 Attributes::~Attributes()
@@ -26,65 +50,118 @@ std::string Attributes::getName() {
 	return this->name;
 }
 
-int_attr Attributes::getStrenght() {
-	return this->strenght;
-}
-
-int_attr Attributes::getInteligence() {
-	return this->inteligence;
-}
-
-int_attr Attributes::getVitality() {
-	return this->vitality;
-}
-
-int_attr Attributes::getSpirituality() {
-	return this->spirituality;
-}
-
-int_attr Attributes::getEndurance() {
-	return this->endurance;
-}
-
-int_attr Attributes::getDexterity() {
-	return this->dexterity;
-}
-
-int_attr Attributes::getAgility() {
-	return this->agility;
-}
-
-int_attr Attributes::getRemaining() {
+int32_t Attributes::getRemaining() {
 	return this->remaining;
 }
 
+//GETS
+int_attr Attributes::getStrenght() {
+	return this->attributes[A_STR].value;
+}
+
+int_attr Attributes::getInteligence() {
+	return this->attributes[A_INT].value;
+}
+
+int_attr Attributes::getVitality() {
+	return this->attributes[A_VIT].value;
+}
+
+int_attr Attributes::getSpirituality() {
+	return this->attributes[A_SPR].value;
+}
+
+int_attr Attributes::getEndurance() {
+	return this->attributes[A_END].value;
+}
+
+int_attr Attributes::getDexterity() {
+	return this->attributes[A_DEX].value;
+}
+
+int_attr Attributes::getAgility() {
+	return this->attributes[A_AGI].value;
+}
+
+int_attr Attributes::getStrBonus() {
+	return this->attributes[A_STR].bonus;
+}
+
+int_attr Attributes::getIntBonus() {
+	return this->attributes[A_INT].bonus;
+}
+
+int_attr Attributes::getVitBonus() {
+	return this->attributes[A_VIT].bonus;
+}
+
+int_attr Attributes::getSprBonus() {
+	return this->attributes[A_SPR].bonus;
+}
+
+int_attr Attributes::getEndBonus() {
+	return this->attributes[A_END].bonus;
+}
+
+int_attr Attributes::getDexBonus() {
+	return this->attributes[A_DEX].bonus;
+}
+
+int_attr Attributes::getAgiBonus() {
+	return this->attributes[A_AGI].bonus;
+}
+
+//SETS
 void Attributes::setName(std::string v) {
 	this->name = v;
 }
 
+void Attributes::setRemaining(int32_t v) {
+	this->remaining = v;
+}
+
 void Attributes::setStrenght(int_attr v) {
-	this->strenght = v;
+	this->attributes[A_STR].value = v;
 }
 
 void Attributes::setInteligence(int_attr v) {
-	this->inteligence = v;
+	this->attributes[A_INT].value = v;
 }
 void Attributes::setVitality(int_attr v) {
-	this->vitality = v;
+	this->attributes[A_VIT].value = v;
 }
 void Attributes::setSpirituality(int_attr v) {
-	this->spirituality = v;
+	this->attributes[A_SPR].value = v;
 }
 void Attributes::setEndurance(int_attr v) {
-	this->endurance = v;
+	this->attributes[A_END].value = v;
 }
 void Attributes::setDexterity(int_attr v) {
-	this->dexterity = v;
+	this->attributes[A_DEX].value = v;
 }
 void Attributes::setAgility(int_attr v) {
-	this->agility = v;
+	this->attributes[A_AGI].value = v;
 }
 
-void Attributes::setRemaining(int_attr v) {
-	this->remaining = v;
+void Attributes::setStrBonus(int_attr v) {
+	this->attributes[A_STR].bonus = v;
+}
+
+void Attributes::setIntBonus(int_attr v) {
+	this->attributes[A_INT].bonus = v;
+}
+void Attributes::setVitBonus(int_attr v) {
+	this->attributes[A_VIT].bonus = v;
+}
+void Attributes::setSprBonus(int_attr v) {
+	this->attributes[A_SPR].bonus = v;
+}
+void Attributes::setEndBonus(int_attr v) {
+	this->attributes[A_END].bonus = v;
+}
+void Attributes::setDexBonus(int_attr v) {
+	this->attributes[A_DEX].bonus = v;
+}
+void Attributes::setAgiBonus(int_attr v) {
+	this->attributes[A_AGI].bonus = v;
 }

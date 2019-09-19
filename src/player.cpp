@@ -4546,12 +4546,16 @@ void Player::addAttributes(std::string name, int_attr stre, int_attr inte, int_a
 	this->attributes.push_back(newAttr);
 }
 
-void Player::setAttributesAtual(uint8_t v) {
-	this->attributesAtual = v;
+void Player::setAttributesPage(uint8_t v) {
+	this->attributesPage = v;
 }
 
 AttributesList* Player::getAttributesList() {
 	return &this->attributes;
+}
+
+uint8_t Player::getAttributesPage() {
+	return this->attributesPage;
 }
 
 void Player::deleteAttributes() {

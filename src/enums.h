@@ -294,6 +294,20 @@ enum skills_t : uint8_t {
 	SKILL_LAST = SKILL_FISHING
 };
 
+//@Atributes
+enum attributes_t : uint8_t {
+	A_STR = 0,
+	A_INT = 1,
+	A_VIT = 2,
+	A_SPR = 3,
+	A_END = 4,
+	A_DEX = 5,
+	A_AGI = 6,
+
+	A_FIRST = A_STR,
+	A_LAST = A_AGI
+};
+
 enum stats_t {
 	STAT_MAXHITPOINTS,
 	STAT_MAXMANAPOINTS,

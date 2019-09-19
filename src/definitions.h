@@ -32,7 +32,7 @@ static constexpr auto AUTHENTICATOR_DIGITS = 6U;
 static constexpr auto AUTHENTICATOR_PERIOD = 30U;
 
 //@attributes
-#define int_attr int32_t
+#define int_attr float
 #define AttributesList std::vector<Attributes*>
 
 #ifndef __FUNCTION__
