@@ -91,6 +91,9 @@ class Vocation
 		float defenseMultiplier = 1.0f;
 		float armorMultiplier = 1.0f;
 
+		//@Attributes
+		int_attr* getAttributesMultipliers();
+
 	private:
 		friend class Vocations;
 
@@ -101,6 +104,8 @@ class Vocation
 		std::string description;
 
 		float skillMultipliers[SKILL_LAST + 1] = {1.5f, 2.0f, 2.0f, 2.0f, 2.0f, 1.5f, 1.1f};
+		//@Attributes
+		int_attr AttributesMultipliers[A_LAST + 1] = { 0.0f, 0.0f,  0.0f,  0.0f,  0.0f,  0.0f, 0.0f };
 		float manaMultiplier = 4.0f;
 
 		uint32_t gainHealthTicks = 6;

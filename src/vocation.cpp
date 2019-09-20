@@ -111,7 +111,24 @@ bool Vocations::loadFromXml()
 		}
 
 		for (auto childNode : vocationNode.children()) {
-			if (strcasecmp(childNode.name(), "skill") == 0) {
+			//@Attribute
+			//função que pega os multiplies do vocations.xml
+			if (strcasecmp(childNode.name(), "attribute") == 0) {
+				pugi::xml_attribute attributeIdAttribute = childNode.attribute("id");
+					if (attributeIdAttribute) {
+						uint16_t attribute_id = pugi::cast<uint16_t>(attributeIdAttribute.value());
+							if (attribute_id <= SKILL_LAST) {
+								voc.AttributesMultipliers[attribute_id] = pugi::cast<float>(childNode.attribute("multiplier").value());
+							}
+							else {
+								std::cout << "[Notice - Vocations::loadFromXml] No valid attribute id: " << attribute_id << " for vocation: " << voc.id << std::endl;
+							}
+					}
+					else {
+						std::cout << "[Notice - Vocations::loadFromXml] Missing attribute id for vocation: " << voc.id << std::endl;
+					}
+			}
+			else if (strcasecmp(childNode.name(), "skill") == 0) {
 				pugi::xml_attribute skillIdAttribute = childNode.attribute("id");
 				if (skillIdAttribute) {
 					uint16_t skill_id = pugi::cast<uint16_t>(skillIdAttribute.value());
@@ -214,4 +231,8 @@ uint64_t Vocation::getReqMana(uint32_t magLevel)
 
 	cacheMana[magLevel] = reqMana;
 	return reqMana;
+}
+
+int_attr* Vocation::getAttributesMultipliers() {
+	return this->AttributesMultipliers;
 }
