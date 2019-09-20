@@ -90,4 +90,14 @@
 		<skill id="5" multiplier="1.1" />
 		<skill id="6" multiplier="1.1" />
 	</vocation>
+	<vocation id="9" clientid="9" name="Swordsman" description="a Swordsman" gaincap="25" gainhp="15" gainmana="5" gainhpticks="1" gainhpamount="0" gainmanaticks="1" gainmanaamount="0" manamultiplier="3.0" attackspeed="1500" basespeed="220" soulmax="200" gainsoulticks="15" fromvoc="9">
+		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
+		<attribute id="0" multiplier="0.75" />
+		<attribute id="1" multiplier="0.00" />
+		<attribute id="2" multiplier="0.75" />
+		<attribute id="3" multiplier="0.00" />
+		<attribute id="4" multiplier="0.50" />
+		<attribute id="5" multiplier="0.00" />
+		<attribute id="6" multiplier="0.00" />
+	</vocation>
 </vocations>

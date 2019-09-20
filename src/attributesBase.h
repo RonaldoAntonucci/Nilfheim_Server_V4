@@ -11,7 +11,7 @@ private:
 
 
 public:
-	BaseAttributes();
+	//BaseAttributes();
 	BaseAttributes(uint32_t level);
 	~BaseAttributes();
 
@@ -33,13 +33,13 @@ public:
 	int_attr  getDex();
 	int_attr  getAgi();
 
-	/*//add
+	//add
 	bool  addStr(int_attr v);
 	bool  addInt(int_attr v);
 	bool  addVit(int_attr v);
 	bool  addSpr(int_attr v);
 	bool  addEnd(int_attr v);
 	bool  addDex(int_attr v);
-	bool  addAgi(int_attr v);*/
+	bool  addAgi(int_attr v);
 };
 #endif

@@ -1,7 +1,7 @@
 #include "otpch.h"
 #include "attributesBase.h"
 
-BaseAttributes::BaseAttributes() {
+/*BaseAttributes::BaseAttributes() {
 	setStr(0);
 	setInt(0);
 	setVit(0);
@@ -9,10 +9,11 @@ BaseAttributes::BaseAttributes() {
 	setEnd(0);
 	setDex(0);
 	setAgi(0);
-}
+}*/
 
 BaseAttributes::BaseAttributes(uint32_t level) {
-	setStr(level);
+	this->attributes[A_STR] = level;
+	//setStr(level);
 	setInt(level);
 	setVit(level);
 	setSpr(level);
@@ -21,7 +22,7 @@ BaseAttributes::BaseAttributes(uint32_t level) {
 	setAgi(level);
 
 	//@teste
-	std::cout << getEnd() << std::endl;
+	//std::cout << getEnd() << std::endl;
 }
 
 BaseAttributes::~BaseAttributes() {
@@ -82,4 +83,27 @@ int_attr BaseAttributes::getDex() {
 
 int_attr BaseAttributes::getAgi() {
 	return this->attributes[A_AGI];
+}
+
+//add
+bool  BaseAttributes::addStr(int_attr v) {
+	return this->attributes[A_STR] += v;
+}
+bool  BaseAttributes::addInt(int_attr v) {
+	return this->attributes[A_INT] += v;
+}
+bool  BaseAttributes::addVit(int_attr v) {
+	return this->attributes[A_VIT] += v;
+}
+bool  BaseAttributes::addSpr(int_attr v) {
+	return this->attributes[A_SPR] += v;
+}
+bool  BaseAttributes::addEnd(int_attr v) {
+	return this->attributes[A_END] += v;
+}
+bool  BaseAttributes::addDex(int_attr v) {
+	return this->attributes[A_DEX] += v;
+}
+bool  BaseAttributes::addAgi(int_attr v) {
+	return this->attributes[A_AGI] += v;
 }

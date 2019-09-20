@@ -3,7 +3,7 @@
 
 
 
-Attributes::Attributes()
+/*Attributes::Attributes()
 {
 	setName("attributes1");
 	setRemaining(0);
@@ -23,7 +23,7 @@ Attributes::Attributes()
 	setEndBonus(0);
 	setDexBonus(0);
 	setAgiBonus(0);
-}
+}*/
 
 Attributes::Attributes(Player* creature,std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema)
 {
@@ -34,9 +34,11 @@ Attributes::Attributes(Player* creature,std::string name, int_attr stre, int_att
 
 
 	setName(name);
-	setRemaining(rema);
+	this->remaining = rema;
+	//setRemaining(rema);
 
-	setStrenght(stre);
+	this->attributes[A_STR].value = stre;
+	//setStrenght(stre);
 	setInteligence(inte);
 	setVitality(vita);
 	setSpirituality(spri);
@@ -122,6 +124,34 @@ int_attr Attributes::getAgiBonus() {
 	return this->attributes[A_AGI].bonus;
 }
 
+
+int_attr Attributes::getStr() {
+	return this->attributes[A_STR].value + this->attributes[A_STR].bonus + base->getStr();
+}
+
+int_attr Attributes::getInt() {
+	return this->attributes[A_INT].value + this->attributes[A_INT].bonus + base->getInt();
+}
+
+int_attr Attributes::getVit() {
+	return this->attributes[A_VIT].value + this->attributes[A_VIT].bonus + base->getVit();
+}
+
+int_attr Attributes::getSpr() {
+	return this->attributes[A_SPR].value + this->attributes[A_SPR].bonus + base->getSpr();
+}
+
+int_attr Attributes::getEnd() {
+	return this->attributes[A_END].value + this->attributes[A_END].bonus + base->getEnd();
+}
+
+int_attr Attributes::getDex() {
+	return this->attributes[A_DEX].value + this->attributes[A_DEX].bonus + base->getDex();
+}
+
+int_attr Attributes::getAgi() {
+	return this->attributes[A_AGI].value + this->attributes[A_AGI].bonus + base->getAgi();
+}
 //SETS
 void Attributes::setName(std::string v) {
 	this->name = v;

@@ -7,7 +7,6 @@
 #include "player.h"
 
 class BaseAttributes;
-
 class Player;
 
 struct Attribute {
@@ -24,7 +23,7 @@ class Attributes {
 		int32_t remaining;
 
 	public:
-		Attributes();
+		//Attributes();
 		Attributes(Player* creature, std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema);
 		~Attributes();
 
@@ -47,6 +46,15 @@ class Attributes {
 		int_attr getEndBonus();
 		int_attr getDexBonus();
 		int_attr getAgiBonus();
+
+		//retorna o valor total dos attributes
+		int_attr  getStr();
+		int_attr  getInt();
+		int_attr  getVit();
+		int_attr  getSpr();
+		int_attr  getEnd();
+		int_attr  getDex();
+		int_attr  getAgi();
 
 		void setName(std::string v);
 		void setRemaining(int32_t v);
