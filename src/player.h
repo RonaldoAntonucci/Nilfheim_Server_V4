@@ -39,6 +39,7 @@
 
 //@Attributes
 #include "attributes.h"
+//#include "attributesBase.h"
 
 class House;
 class NetworkMessage;
@@ -49,6 +50,8 @@ class Party;
 class SchedulerTask;
 class Bed;
 class Guild;
+class BaseAttributes;
+class Attributes;
 
 enum skillsid_t {
 	SKILLVALUE_LEVEL = 0,
@@ -1153,9 +1156,11 @@ class Player final : public Creature, public Cylinder
 
 		AttributesList* getAttributesList();
 		uint8_t getAttributesPage();
+		BaseAttributes* getBaseAttributes();
 
 	private:
 		//@Attributes
+		BaseAttributes* base;
 		AttributesList attributes;
 		uint8_t attributesPage = 0;
 

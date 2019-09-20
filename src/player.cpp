@@ -4538,7 +4538,7 @@ void Player::addAttributes(std::string name, int_attr stre, int_attr inte, int_a
 		this->attributes = new AttributesList();
 	}*/
 
-	Attributes* newAttr = new Attributes(name, stre, inte, vita, spri, endu, dext, agil, rema);
+	Attributes* newAttr = new Attributes(this, name, stre, inte, vita, spri, endu, dext, agil, rema);
 	if (!newAttr) {
 		std::cout << "erro ao alocar Attribute." << std::endl;
 		return;
@@ -4562,5 +4562,10 @@ void Player::deleteAttributes() {
 	while (!this->attributes.empty()) {
 		attributes.pop_back();
 	}
+	delete this->base;
 	//delete this->attributes;
+}
+
+BaseAttributes* Player::getBaseAttributes() {
+	return this->base;
 }

@@ -3,17 +3,29 @@
 #define FS_ATTRIBUTES_H_4083D3D3A05B4EDE891B31BB720CD06F
 
 #include "enums.h"
+#include "attributesBase.h"
+#include "player.h"
+
+class BaseAttributes;
+
+class Player;
 
 struct Attribute {
 	int_attr value;
 	int_attr bonus;
 };
 
+
 class Attributes {
+	private:
+		BaseAttributes* base;
+		std::string name;
+		Attribute attributes[A_LAST + 1];
+		int32_t remaining;
 
 	public:
 		Attributes();
-		Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema);
+		Attributes(Player* creature, std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema);
 		~Attributes();
 
 		std::string getName();
@@ -55,13 +67,5 @@ class Attributes {
 		void setDexBonus(int_attr v);
 		void setAgiBonus(int_attr v);
 		
-
-		
-
-	private:
-
-		std::string name = "default";
-		Attribute attributes[A_LAST + 1];
-		int32_t remaining = 0;
 };
 #endif

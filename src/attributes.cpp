@@ -1,8 +1,13 @@
 #include "otpch.h"
 #include "attributes.h"
 
+
+
 Attributes::Attributes()
 {
+	setName("attributes1");
+	setRemaining(0);
+
 	setStrenght(1);
 	setInteligence(1);
 	setVitality(1);
@@ -20,8 +25,14 @@ Attributes::Attributes()
 	setAgiBonus(0);
 }
 
-Attributes::Attributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema)
+Attributes::Attributes(Player* creature,std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema)
 {
+	this->base = creature->getBaseAttributes();
+	if (!base) {
+		base = new BaseAttributes(creature->getLevel());
+	}
+
+
 	setName(name);
 	setRemaining(rema);
 
