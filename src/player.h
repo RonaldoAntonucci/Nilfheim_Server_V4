@@ -1152,17 +1152,17 @@ class Player final : public Creature, public Cylinder
 		//Métodos
 		void addAttributes(std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int_attr rema);
 
-		void setAttributesPage(uint8_t v);
+		void setAttributesPage(int32_t v);
 
 		AttributesList* getAttributesList();
-		uint8_t getAttributesPage();
+		int32_t getAttributesPage();
 		BaseAttributes* getBaseAttributes();
 
 	private:
 		//@Attributes
-		BaseAttributes* base;
+		BaseAttributes* base = nullptr;
 		AttributesList attributes;
-		uint8_t attributesPage = 0;
+		int32_t attributesPage = 0;
 
 		void deleteAttributes();
 

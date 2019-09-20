@@ -29,7 +29,7 @@ Attributes::Attributes(Player* creature,std::string name, int_attr stre, int_att
 {
 	this->base = creature->getBaseAttributes();
 	if (!base) {
-		base = new BaseAttributes(creature->getLevel());
+		base = new BaseAttributes(creature->getLevel(), creature->getVocation()->getAttributesMultipliers());
 	}
 
 
@@ -53,6 +53,18 @@ Attributes::Attributes(Player* creature,std::string name, int_attr stre, int_att
 	setEndBonus(0);
 	setDexBonus(0);
 	setAgiBonus(0);
+
+	//@teste
+	std::cout << "Attributes\n"
+		<< "STR: " << getStr() << "\n"
+		<< "INT: " << getInt() << "\n"
+		<< "VIT: " << getVit() << "\n"
+		<< "SPR: " << getSpr() << "\n"
+		<< "END: " << getEnd() << "\n"
+		<< "DEX: " << getDex() << "\n"
+		<< "AGI: " << getAgi() << "\n"
+		<< "REMAINING: " << getRemaining() << "\n"
+		<< std::endl;
 }
 
 Attributes::~Attributes()
@@ -205,4 +217,24 @@ void Attributes::setDexBonus(int_attr v) {
 }
 void Attributes::setAgiBonus(int_attr v) {
 	this->attributes[A_AGI].bonus = v;
+}
+
+void Attributes::addRemaining(int32_t v) {
+	this->remaining += v;
+}
+
+void Attributes::updateLevel() {
+	addRemaining(PointsOnLevel);
+	this->base->updateLevel();
+	//@teste
+	std::cout << "Attributes\n"
+		<< "STR: " << getStr() << "\n"
+		<< "INT: " << getInt() << "\n"
+		<< "VIT: " << getVit() << "\n"
+		<< "SPR: " << getSpr() << "\n"
+		<< "END: " << getEnd() << "\n"
+		<< "DEX: " << getDex() << "\n"
+		<< "AGI: " << getAgi() << "\n"
+		<< "REMAINING: " << getRemaining() << "\n"
+		<< std::endl;
 }

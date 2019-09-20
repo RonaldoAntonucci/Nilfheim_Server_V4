@@ -11,18 +11,27 @@
 	setAgi(0);
 }*/
 
-BaseAttributes::BaseAttributes(uint32_t level) {
+BaseAttributes::BaseAttributes(uint32_t level, int_attr* mult) {
+	this->multipliers = mult;
 	this->attributes[A_STR] = level;
 	//setStr(level);
-	setInt(level);
-	setVit(level);
-	setSpr(level);
-	setEnd(level);
-	setDex(level);
-	setAgi(level);
+	setInt(level * multipliers[A_STR]);
+	setVit(level * multipliers[A_VIT]);
+	setSpr(level * multipliers[A_SPR]);
+	setEnd(level * multipliers[A_END]);
+	setDex(level * multipliers[A_DEX]);
+	setAgi(level * multipliers[A_AGI]);
 
 	//@teste
-	//std::cout << getEnd() << std::endl;
+	std::cout << "baseAttributes\n"
+		<< "STR: " << getStr() << "\n"
+		<< "INT: " << getInt() << "\n"
+		<< "VIT: " << getVit() << "\n"
+		<< "SPR: " << getSpr() << "\n"
+		<< "END: " << getEnd() << "\n"
+		<< "DEX: " << getDex() << "\n"
+		<< "AGI: " << getAgi() << "\n"
+		<< std::endl;
 }
 
 BaseAttributes::~BaseAttributes() {
@@ -106,4 +115,14 @@ bool  BaseAttributes::addDex(int_attr v) {
 }
 bool  BaseAttributes::addAgi(int_attr v) {
 	return this->attributes[A_AGI] += v;
+}
+
+void  BaseAttributes::updateLevel(){
+	addStr(multipliers[A_STR]);
+	addInt(multipliers[A_INT]);
+	addVit(multipliers[A_VIT]);
+	addSpr(multipliers[A_SPR]);
+	addEnd(multipliers[A_END]);
+	addDex(multipliers[A_DEX]);
+	addAgi(multipliers[A_AGI]);
 }

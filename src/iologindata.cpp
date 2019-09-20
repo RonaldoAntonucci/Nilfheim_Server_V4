@@ -260,7 +260,7 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 	player->name = result->getString("name");
 	player->accountNumber = accno;
 	//@Attributes
-	player->setAttributesPage(result->getNumber<uint8_t>("attributes_page"));
+	player->setAttributesPage(result->getNumber<int32_t>("attributes_page"));
 
 	player->accountType = acc.accountType;
 

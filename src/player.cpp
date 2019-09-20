@@ -1630,6 +1630,10 @@ void Player::addExperience(Creature* source, uint64_t exp, bool sendText/* = fal
 
 		currLevelExp = nextLevelExp;
 		nextLevelExp = Player::getExpForLevel(level + 1);
+
+		//@Attributes
+		this->attributes.at(this->attributesPage)->updateLevel();
+
 		if (currLevelExp >= nextLevelExp) {
 			//player has reached max level
 			break;
@@ -4546,7 +4550,7 @@ void Player::addAttributes(std::string name, int_attr stre, int_attr inte, int_a
 	this->attributes.push_back(newAttr);
 }
 
-void Player::setAttributesPage(uint8_t v) {
+void Player::setAttributesPage(int32_t v) {
 	this->attributesPage = v;
 }
 
@@ -4554,7 +4558,7 @@ AttributesList* Player::getAttributesList() {
 	return &this->attributes;
 }
 
-uint8_t Player::getAttributesPage() {
+int32_t Player::getAttributesPage() {
 	return this->attributesPage;
 }
 

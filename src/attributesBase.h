@@ -8,11 +8,12 @@
 class BaseAttributes {
 private:
 	int_attr attributes[A_LAST + 1];
+	int_attr* multipliers = nullptr;
 
 
 public:
 	//BaseAttributes();
-	BaseAttributes(uint32_t level);
+	BaseAttributes(uint32_t level, int_attr* mult);
 	~BaseAttributes();
 
 	//set
@@ -41,5 +42,7 @@ public:
 	bool  addEnd(int_attr v);
 	bool  addDex(int_attr v);
 	bool  addAgi(int_attr v);
+
+	void updateLevel();
 };
 #endif

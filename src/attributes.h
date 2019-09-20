@@ -17,7 +17,7 @@ struct Attribute {
 
 class Attributes {
 	private:
-		BaseAttributes* base;
+		BaseAttributes* base = nullptr;
 		std::string name;
 		Attribute attributes[A_LAST + 1];
 		int32_t remaining;
@@ -74,6 +74,10 @@ class Attributes {
 		void setEndBonus(int_attr v);
 		void setDexBonus(int_attr v);
 		void setAgiBonus(int_attr v);
-		
+
+		//add
+		void addRemaining(int32_t v);
+
+		void updateLevel();
 };
 #endif

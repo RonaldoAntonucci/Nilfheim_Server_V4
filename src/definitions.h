@@ -34,6 +34,7 @@ static constexpr auto AUTHENTICATOR_PERIOD = 30U;
 //@attributes
 #define int_attr float
 #define AttributesList std::vector<Attributes*>
+#define PointsOnLevel 2
 
 #ifndef __FUNCTION__
 #define __FUNCTION__ __func__
