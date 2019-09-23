@@ -10,8 +10,8 @@ class BaseAttributes;
 class Player;
 
 struct Attribute {
-	int_attr value;
-	int_attr bonus;
+	int_attr value = 1;
+	int_attr bonus = 0;
 };
 
 
@@ -26,6 +26,8 @@ class Attributes {
 		//Attributes();
 		Attributes(Player* creature, std::string name, int_attr stre, int_attr inte, int_attr vita, int_attr spri, int_attr endu, int_attr dext, int_attr agil, int32_t rema);
 		~Attributes();
+
+		Attribute* getAttributes();
 
 		std::string getName();
 		int32_t getRemaining();

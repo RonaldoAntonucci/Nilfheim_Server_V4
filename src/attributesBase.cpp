@@ -13,9 +13,9 @@
 
 BaseAttributes::BaseAttributes(uint32_t level, int_attr* mult) {
 	this->multipliers = mult;
-	this->attributes[A_STR] = level;
-	//setStr(level);
-	setInt(level * multipliers[A_STR]);
+	this->attributes[A_STR] = level * multipliers[A_STR];
+	//setStr(level * multipliers[A_STR]);
+	setInt(level * multipliers[A_INT]);
 	setVit(level * multipliers[A_VIT]);
 	setSpr(level * multipliers[A_SPR]);
 	setEnd(level * multipliers[A_END]);

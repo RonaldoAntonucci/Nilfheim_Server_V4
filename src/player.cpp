@@ -71,6 +71,7 @@ Player::~Player()
 
 	//@Attributes
 	deleteAttributes();
+	deleteStats();
 	setWriteItem(nullptr);
 	setEditHouse(nullptr);
 }
@@ -4572,4 +4573,16 @@ void Player::deleteAttributes() {
 
 BaseAttributes* Player::getBaseAttributes() {
 	return this->base;
+}
+
+Attributes* Player::getAttributes() {
+	return this->attributes.at(getAttributesPage());
+}
+
+void Player::loadStats() {
+	this->stats = new PlayerStats(this);
+}
+
+void Player::deleteStats() {
+	delete this->stats;
 }

@@ -40,6 +40,8 @@
 //@Attributes
 #include "attributes.h"
 //#include "attributesBase.h"
+//@Stats
+#include "playerStats.h"
 
 class House;
 class NetworkMessage;
@@ -52,6 +54,7 @@ class Bed;
 class Guild;
 class BaseAttributes;
 class Attributes;
+class PlayerStats;
 
 enum skillsid_t {
 	SKILLVALUE_LEVEL = 0,
@@ -1157,12 +1160,20 @@ class Player final : public Creature, public Cylinder
 		AttributesList* getAttributesList();
 		int32_t getAttributesPage();
 		BaseAttributes* getBaseAttributes();
+		Attributes* getAttributes();
+
+		//@Stats
+		void loadStats();
+		void deleteStats();
 
 	private:
 		//@Attributes
 		BaseAttributes* base = nullptr;
 		AttributesList attributes;
 		int32_t attributesPage = 0;
+
+		//@Stats
+		PlayerStats* stats = nullptr;
 
 		void deleteAttributes();
 

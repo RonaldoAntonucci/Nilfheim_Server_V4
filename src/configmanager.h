@@ -100,6 +100,38 @@ class ConfigManager
 			MAX_MARKET_OFFERS_AT_A_TIME_PER_PLAYER,
 			EXP_FROM_PLAYERS_LEVEL_RANGE,
 			MAX_PACKETS_PER_SECOND,
+			//@stats
+			//str
+			STR_PATTACK,
+			STR_PDEF,
+			STR_10PATTACK,
+			//int
+			INT_MATTACK,
+			INT_MDEF,
+			INT_10MATTACK,
+			//vit
+			VIT_HEALTH,
+			VIT_10HEALTH,
+			VIT_10HEALTHREGEN,
+			//spr
+			SPR_MANA,
+			SPR_10MANA,
+			SPR_10MANAREGEN,
+			//end,
+			END_PDEF,
+			END_MDEF,
+			END_10PDEF,
+			END_10MDEF,
+			//dex
+			DEX_CRIT,
+			DEX_ACC,
+			DEX_10CRIT,
+			DEX_10ACC,
+			//agi
+			AGI_EVADE,
+			AGI_ATTACKSPEED,
+			AGI_10EVADE,
+			AGI_10SPEED,
 
 			LAST_INTEGER_CONFIG /* this must be the last one */
 		};

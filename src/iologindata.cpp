@@ -577,6 +577,7 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 	player->updateBaseSpeed();
 	player->updateInventoryWeight();
 	player->updateItemsLight(true);
+	player->loadStats();
 	return true;
 }
 

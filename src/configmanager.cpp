@@ -173,6 +173,39 @@ bool ConfigManager::load()
 	integer[MAX_MARKET_OFFERS_AT_A_TIME_PER_PLAYER] = getGlobalNumber(L, "maxMarketOffersAtATimePerPlayer", 100);
 	integer[MAX_PACKETS_PER_SECOND] = getGlobalNumber(L, "maxPacketsPerSecond", 25);
 
+	//@Stats
+	//str
+	integer[STR_PATTACK] = getGlobalNumber(L, "strPAttack", 100);
+	integer[STR_PDEF] = getGlobalNumber(L, "strPDef", 100);
+	integer[STR_10PATTACK] = getGlobalNumber(L, "str10pAttack", 100);
+	//int
+	integer[INT_MATTACK] = getGlobalNumber(L, "intMAttack", 100);
+	integer[INT_MDEF] = getGlobalNumber(L, "intMDef", 100);
+	integer[INT_10MATTACK] = getGlobalNumber(L, "int10MAttack", 100);
+	//vit
+	integer[VIT_HEALTH] = getGlobalNumber(L, "vitHealth", 100);
+	integer[VIT_10HEALTH] = getGlobalNumber(L, "vit10Health", 100);
+	integer[VIT_10HEALTHREGEN] = getGlobalNumber(L, "vit10HealthRegen", 100);
+	//spr
+	integer[SPR_MANA] = getGlobalNumber(L, "sprMana", 100);
+	integer[SPR_10MANA] = getGlobalNumber(L, "spr10Mana", 100);
+	integer[SPR_10MANAREGEN] = getGlobalNumber(L, "spr10ManaRegen", 100);
+	//end
+	integer[END_PDEF] = getGlobalNumber(L, "endPDef", 100);
+	integer[END_MDEF] = getGlobalNumber(L, "endMdef", 100);
+	integer[END_10PDEF] = getGlobalNumber(L, "end10PDef", 100);
+	integer[END_10MDEF] = getGlobalNumber(L, "end10MDef", 100);
+	//dex
+	integer[DEX_CRIT] = getGlobalNumber(L, "dexCrit", 100);
+	integer[DEX_ACC] = getGlobalNumber(L, "dexAccuracy", 100);
+	integer[DEX_10CRIT] = getGlobalNumber(L, "dex10Crit", 100);
+	integer[DEX_10ACC] = getGlobalNumber(L, "dex10Accuracy", 100);
+	//agi
+	integer[AGI_EVADE] = getGlobalNumber(L, "agiEvade", 100);
+	integer[AGI_ATTACKSPEED] = getGlobalNumber(L, "agiAttackSpeed", 100);
+	integer[AGI_10EVADE] = getGlobalNumber(L, "agi10Evade", 100);
+	integer[AGI_10SPEED] = getGlobalNumber(L, "agi10Speed", 10);
+
 	loaded = true;
 	lua_close(L);
 	return true;
